@@ -1,0 +1,12 @@
+# config/routes.yaml
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+app_homepage:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+app_register:
+    path: /register
+    controller: App\Controller\RegistrationController::register

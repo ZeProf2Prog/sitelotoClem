@@ -1,0 +1,26 @@
+{# templates/index.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Bienvenue sur notre site de loto!</h1>
+
+    <form action="{{ path('app_register') }}" method="POST">
+        <input type="email" name="email" placeholder="Votre adresse email" required>
+        <input type="number" name="idLoto" placeholder="numéro du loto" required>
+        <input type="number" name="nbrGrille" placeholder="nombre de grille" required>
+        <button type="submit">jouer</button>
+    </form>
+
+    <h2>Historique des tirages</h2>
+    {% for grilleLoto in grillesLoto %}
+        <table id="grid">
+            {% for elmLoto in grilleLoto %}
+                <tr>
+                    {% for numero in elmLoto %}
+                        <td>{{ numero }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+{% endblock %}
