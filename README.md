@@ -19,7 +19,7 @@ metter en place une BDD mysql (fichier SQL de création de base dispo dans creat
 
 renseigner la BDD dans les fichiers de config du projet
 
-installer symfony https://symfony.com/download
+installer symfony https://symfony.com/download    (ou pas je pense pas que ce soit requis)
 
 et bonne chance ^^
 
