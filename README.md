@@ -17,7 +17,7 @@ cloner le dépot en local
 
 metter en place une BDD mysql (fichier SQL de création de base dispo dans createBase.sql)
 
-renseigner la BDD dans les fichiers de config du projet
+renseigner la BDD dans les fichiers de config du projet (config/packages/doctrine.yaml)
 
 installer symfony https://symfony.com/download    (ou pas je pense pas que ce soit requis)
 
