@@ -19,6 +19,10 @@ metter en place une BDD mysql (todo mettre un .sql pour créer la structure de l
 
 renseigner la BDD dans les fichiers de config du projet
 
+installer symfony https://symfony.com/download
+
+et bonne chance ^^
+
 
 
 ## Démarrage
